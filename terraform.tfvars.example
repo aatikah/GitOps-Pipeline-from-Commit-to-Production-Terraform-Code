@@ -1,0 +1,14 @@
+project_name             = "gitops-demo"
+aws_region               = "us-east-1"
+cluster_name             = "gitops-demo-eks"
+cluster_version          = "1.31"
+github_owner             = "your-org"
+github_repo              = "app-repo"
+github_branch            = "main"
+github_repo_owner_id     = "00000000000000000000"
+github_repo_id           = "00000000000000000000"
+az_count                 = 2
+node_group_desired_size  = 2
+node_group_max_size      = 4
+node_group_min_size      = 2
+node_group_instance_type = "t3.medium"
